@@ -1,2 +1,2 @@
-# Sistema-Inteligente-Entrenamiento-Canino-para-el-SAG
+# Capstone-SAG
 alo
