@@ -1,0 +1,74 @@
+.
+└── Base de datos ReportaYa Firebase/
+    ├── Camaras (Coleccion)/
+    │   └── IDDocumentoFirebase(automatico)/
+    │       ├── apellido:string
+    │       ├── calle:string
+    │       ├── fecha:timestamp
+    │       ├── motivo:string
+    │       ├── nRegistro:string
+    │       ├── nombre:string
+    │       ├── rut:string
+    │       ├── telefono:string
+    │       └── usuarioUID:string
+    ├── Partes (Coleccion)/
+    │   └── IDDocumentoFirebase(automatico)/
+    │       ├── color:string
+    │       ├── comentarios:string
+    │       ├── coordenadas:map/
+    │       │   ├── lat:number
+    │       │   └── lng:number
+    │       ├── fecha:timestamp
+    │       ├── fotoURL1:string
+    │       ├── fotoURL2:string
+    │       ├── fotoURL3:string
+    │       ├── id:string
+    │       ├── infraccion:string
+    │       ├── marca:string
+    │       ├── patente:string
+    │       ├── tipo:string
+    │       ├── ubicacion:string
+    │       ├── usuarioEmail:string
+    │       └── usuarioUID:string
+    ├── Reportes (Coleccion)/
+    │   └── IDDocumentoFirebase(automatico)/
+    │       ├── categoria:string
+    │       ├── comentariosInspector:string
+    │       ├── coordenadas:map/
+    │       │   ├── lat:number
+    │       │   └── lng:number
+    │       ├── descripcion:string
+    │       ├── estado/
+    │       │   ├── enProceso:boolean
+    │       │   ├── enTerreno:boolean
+    │       │   ├── pendiente:boolean
+    │       │   └── resuelto:boolean
+    │       ├── fecha:timestamp
+    │       ├── fechaActualizacionInspector:timestamp
+    │       ├── fotoURL:string
+    │       ├── inspectorAsignado:string
+    │       ├── prioridad:string
+    │       ├── subcategoria:string
+    │       ├── ubicacion:string
+    │       ├── usuarioEmail:string
+    │       ├── usuarioUID:string
+    │       └── visibilidad:boolean
+    └── Users (Coleccion)/
+        └── IDDocumentoFirebase(automatico)/
+            ├── Tipo Normal/
+            │   ├── createdAt:timestamp
+            │   ├── email:string
+            │   ├── firstName:string
+            │   ├── lastName:string
+            │   └── phone:string
+            ├── Tipo Google/
+            │   ├── createdAt:timestamp
+            │   ├── email:string
+            │   ├── firstName:string
+            │   ├── lastName:string
+            │   ├── phone:string
+            │   └── photoURL:string
+            └── Tipo Telefono/
+                ├── createdAt:timestamp
+                ├── phone:string
+                └── uid:string
